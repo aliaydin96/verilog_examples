@@ -1,0 +1,35 @@
+|shift_register
+seri_in => seri_in.IN1
+clk => clk.IN4
+clear => clear.IN4
+seri_out << D_FF:comb_6.Q
+
+
+|shift_register|D_FF:comb_3
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_register|D_FF:comb_4
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_register|D_FF:comb_5
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_register|D_FF:comb_6
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

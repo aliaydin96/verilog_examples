@@ -1,0 +1,85 @@
+|universal_shift_register
+parallel_in[0] => parallel_in[0].IN1
+parallel_in[1] => parallel_in[1].IN1
+parallel_in[2] => parallel_in[2].IN1
+parallel_in[3] => parallel_in[3].IN1
+clk => clk.IN4
+clear => clear.IN4
+msb => msb.IN1
+lsb => lsb.IN1
+parallel_out[0] <= w[0].DB_MAX_OUTPUT_PORT_TYPE
+parallel_out[1] <= w[1].DB_MAX_OUTPUT_PORT_TYPE
+parallel_out[2] <= w[2].DB_MAX_OUTPUT_PORT_TYPE
+parallel_out[3] <= w[3].DB_MAX_OUTPUT_PORT_TYPE
+select[0] => select[0].IN4
+select[1] => select[1].IN4
+
+
+|universal_shift_register|fourtoone_mux:comb_3
+in1 => Mux0.IN0
+in2 => Mux0.IN1
+in3 => Mux0.IN2
+in0 => Mux0.IN3
+select[0] => Mux0.IN5
+select[1] => Mux0.IN4
+out <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_shift_register|fourtoone_mux:comb_4
+in1 => Mux0.IN0
+in2 => Mux0.IN1
+in3 => Mux0.IN2
+in0 => Mux0.IN3
+select[0] => Mux0.IN5
+select[1] => Mux0.IN4
+out <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_shift_register|fourtoone_mux:comb_5
+in1 => Mux0.IN0
+in2 => Mux0.IN1
+in3 => Mux0.IN2
+in0 => Mux0.IN3
+select[0] => Mux0.IN5
+select[1] => Mux0.IN4
+out <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_shift_register|fourtoone_mux:comb_6
+in1 => Mux0.IN0
+in2 => Mux0.IN1
+in3 => Mux0.IN2
+in0 => Mux0.IN3
+select[0] => Mux0.IN5
+select[1] => Mux0.IN4
+out <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_shift_register|D_FF:comb_7
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_shift_register|D_FF:comb_8
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_shift_register|D_FF:comb_9
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|universal_shift_register|D_FF:comb_10
+clk => Q~reg0.CLK
+clear => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

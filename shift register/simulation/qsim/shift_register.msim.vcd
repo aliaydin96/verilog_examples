@@ -1,0 +1,255 @@
+$comment
+	File created using the following command:
+		vcd file shift_register.msim.vcd -direction
+$end
+$date
+	Fri Apr 27 15:46:29 2018
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module shift_register_vlg_vec_tst $end
+$var reg 1 ! clear $end
+$var reg 1 " clk $end
+$var reg 1 # seri_in $end
+$var wire 1 $ seri_out $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + seri_out~output_o $end
+$var wire 1 , clk~input_o $end
+$var wire 1 - seri_in~input_o $end
+$var wire 1 . clear~input_o $end
+$var wire 1 / comb_3|Q~q $end
+$var wire 1 0 comb_4|Q~q $end
+$var wire 1 1 comb_5|Q~q $end
+$var wire 1 2 comb_6|Q~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+1.
+0/
+00
+01
+02
+$end
+#20000
+1"
+1,
+#40000
+0"
+0,
+#60000
+1"
+1,
+#80000
+1#
+0"
+1-
+0,
+#100000
+1"
+1,
+1/
+#120000
+0"
+0,
+#140000
+1"
+1,
+10
+#160000
+0"
+0,
+#180000
+1"
+1,
+11
+#200000
+0"
+0,
+#220000
+1"
+1,
+12
+1+
+1$
+#240000
+0"
+0,
+#260000
+1"
+1,
+#280000
+0"
+0,
+#300000
+1"
+1,
+#320000
+0"
+0,
+#340000
+1"
+1,
+#360000
+0"
+0,
+#380000
+1"
+1,
+#400000
+0#
+0"
+0-
+0,
+#420000
+1"
+1,
+0/
+#440000
+0"
+0,
+#460000
+1"
+1,
+00
+#480000
+1#
+0"
+1-
+0,
+#500000
+1"
+1,
+01
+1/
+#520000
+0"
+0,
+#540000
+1"
+1,
+02
+10
+0+
+0$
+#560000
+0"
+0,
+#580000
+1"
+1,
+11
+#600000
+0"
+0,
+#620000
+1"
+1,
+12
+1+
+1$
+#640000
+0#
+0"
+0-
+0,
+#660000
+1"
+1,
+0/
+#680000
+0"
+0,
+#700000
+1"
+1,
+00
+#720000
+0"
+0,
+#740000
+1"
+1,
+01
+#760000
+0"
+0,
+#780000
+1"
+1,
+02
+0+
+0$
+#800000
+1#
+0"
+1-
+0,
+#820000
+1"
+1,
+1/
+#840000
+0"
+0,
+#860000
+1"
+1,
+10
+#880000
+0#
+0"
+0-
+0,
+#900000
+1"
+1,
+11
+0/
+#920000
+0"
+0,
+#940000
+1"
+1,
+12
+00
+1+
+1$
+#960000
+1#
+0"
+1-
+0,
+#980000
+1"
+1,
+01
+1/
+#1000000

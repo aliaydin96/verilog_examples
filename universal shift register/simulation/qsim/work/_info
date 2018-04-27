@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ROG/Desktop/lab/verilog/universal shift register/simulation/qsim
+vfourtoone_mux
+Z1 !s110 1524833722
+!i10b 1
+!s100 XOmZLD`om1VaMkQPMJ?Em2
+Il2Hn03zK`4>;oZ08bYXh[3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1524833721
+Z3 8universal_shift_register.vo
+Z4 Funiversal_shift_register.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1524833722.000000
+Z8 !s107 universal_shift_register.vo|
+Z9 !s90 -work|work|universal_shift_register.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vfourtoone_mux_vlg_vec_tst
+R1
+!i10b 1
+!s100 bT[G5jMzZiKz64TgMc:JK2
+I6hcTKa2zJEMQBCFHj:dZG2
+R2
+R0
+w1524833720
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vuniversal_shift_register
+Z13 !s110 1524835111
+!i10b 1
+!s100 L[NLVhNK5=H>J`G?gbi3a1
+I2=4a?l0PQOT<Hbz3VjlmB2
+R2
+R0
+w1524835110
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1524835111.000000
+R8
+R9
+!i113 1
+R10
+R11
+vuniversal_shift_register_vlg_vec_tst
+R13
+!i10b 1
+!s100 1T?Hfa:glC9n:?VAeW_1L0
+IEU0zJ[3T``zfgiHVO^OOL2
+R2
+R0
+w1524835109
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ROG/Desktop/lab/verilog/shift register/D_FF.v
+source_file = 1, C:/Users/ROG/Desktop/lab/verilog/shift register/Waveform.vwf
+source_file = 1, C:/Users/ROG/Desktop/lab/verilog/shift register/shift_register.v
+source_file = 1, C:/Users/ROG/Desktop/lab/verilog/shift register/Waveform1.vwf
+source_file = 1, C:/Users/ROG/Desktop/lab/verilog/shift register/db/shift_register.cbx.xml
+design_name = shift_register
+instance = comp, \seri_out~output , seri_out~output, shift_register, 1
+instance = comp, \clk~input , clk~input, shift_register, 1
+instance = comp, \seri_in~input , seri_in~input, shift_register, 1
+instance = comp, \clear~input , clear~input, shift_register, 1
+instance = comp, \comb_3|Q , comb_3|Q, shift_register, 1
+instance = comp, \comb_4|Q , comb_4|Q, shift_register, 1
+instance = comp, \comb_5|Q , comb_5|Q, shift_register, 1
+instance = comp, \comb_6|Q , comb_6|Q, shift_register, 1
