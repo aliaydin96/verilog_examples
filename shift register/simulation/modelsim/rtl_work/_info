@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog/shift register/simulation/modelsim
+vD_FF
+Z1 !s110 1524846440
+!i10b 1
+!s100 39TLD@^4oPZ?6C:fm?Vda3
+I_^bfDYk9:j_0oajYM^>m00
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1524832992
+8D:/verilog/shift register/D_FF.v
+FD:/verilog/shift register/D_FF.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1524846440.000000
+!s107 D:/verilog/shift register/D_FF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/verilog/shift register|D:/verilog/shift register/D_FF.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/verilog/shift register}
+Z7 tCvgOpt 0
+n@d_@f@f
+vshift_register
+R1
+!i10b 1
+!s100 zh@nCOY]]`gldRYE@19343
+Ie8_BOKh511zdHAiOD<5R21
+R2
+R0
+w1524833131
+8D:/verilog/shift register/shift_register.v
+FD:/verilog/shift register/shift_register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/verilog/shift register/shift_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/verilog/shift register|D:/verilog/shift register/shift_register.v|
+!i113 1
+R5
+R6
+R7

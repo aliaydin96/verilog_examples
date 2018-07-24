@@ -1,0 +1,819 @@
+$comment
+	File created using the following command:
+		vcd file up_counter.msim.vcd -direction
+$end
+$date
+	Sat Apr 28 16:43:23 2018
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module up_counter_vlg_vec_tst $end
+$var reg 1 ! clear $end
+$var reg 1 " clk $end
+$var reg 4 # in [3:0] $end
+$var reg 2 $ select [1:0] $end
+$var wire 1 % out [3] $end
+$var wire 1 & out [2] $end
+$var wire 1 ' out [1] $end
+$var wire 1 ( out [0] $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / out[0]~output_o $end
+$var wire 1 0 out[1]~output_o $end
+$var wire 1 1 out[2]~output_o $end
+$var wire 1 2 out[3]~output_o $end
+$var wire 1 3 clk~input_o $end
+$var wire 1 4 select[1]~input_o $end
+$var wire 1 5 in[1]~input_o $end
+$var wire 1 6 in[0]~input_o $end
+$var wire 1 7 LessThan0~0_combout $end
+$var wire 1 8 select[0]~input_o $end
+$var wire 1 9 Mux2~2_combout $end
+$var wire 1 : Mux0~2_combout $end
+$var wire 1 ; in[3]~input_o $end
+$var wire 1 < in[2]~input_o $end
+$var wire 1 = Mux0~3_combout $end
+$var wire 1 > Mux0~4_combout $end
+$var wire 1 ? Mux0~1_combout $end
+$var wire 1 @ clear~input_o $end
+$var wire 1 A out[0]~0_combout $end
+$var wire 1 B out[3]~reg0_q $end
+$var wire 1 C LessThan0~2_combout $end
+$var wire 1 D Mux0~0_combout $end
+$var wire 1 E Add1~1_combout $end
+$var wire 1 F Add0~0_combout $end
+$var wire 1 G Mux1~0_combout $end
+$var wire 1 H out[2]~reg0_q $end
+$var wire 1 I LessThan0~1_combout $end
+$var wire 1 J Add1~0_combout $end
+$var wire 1 K Mux2~3_combout $end
+$var wire 1 L Mux2~0_combout $end
+$var wire 1 M Mux2~1_combout $end
+$var wire 1 N out[1]~reg0_q $end
+$var wire 1 O Mux3~0_combout $end
+$var wire 1 P Mux3~1_combout $end
+$var wire 1 Q out[0]~1_combout $end
+$var wire 1 R out[0]~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+b1010 #
+b0 $
+0(
+0'
+0&
+0%
+0)
+1*
+x+
+1,
+1-
+1.
+0/
+00
+01
+02
+03
+04
+15
+06
+07
+08
+19
+0:
+1;
+0<
+1=
+0>
+0?
+1@
+1A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+1K
+0L
+0M
+0N
+0O
+0P
+1Q
+0R
+$end
+#10000
+1"
+13
+1R
+1/
+1P
+1L
+1J
+1(
+1M
+0Q
+#20000
+0"
+03
+#30000
+1"
+13
+0R
+1N
+10
+0/
+0P
+0(
+1'
+1Q
+#40000
+0"
+03
+#50000
+1"
+13
+1R
+1/
+1P
+0L
+0J
+1E
+17
+1(
+0M
+1G
+0Q
+#60000
+0"
+03
+#70000
+1"
+13
+0R
+0N
+1H
+11
+00
+0/
+07
+0P
+0(
+0'
+1&
+1Q
+#80000
+0"
+03
+#90000
+1"
+13
+1R
+1/
+1P
+1L
+1J
+1(
+1M
+0Q
+#100000
+0"
+03
+#110000
+1"
+13
+0R
+1N
+10
+0/
+0P
+0(
+1'
+1Q
+#120000
+0"
+03
+#130000
+1"
+13
+1R
+1/
+1P
+0L
+0J
+0E
+1>
+17
+1(
+0M
+1?
+0G
+0Q
+#140000
+0"
+03
+#150000
+1"
+13
+0R
+0N
+0H
+1B
+12
+01
+00
+0/
+1I
+07
+0P
+0(
+0'
+0&
+1%
+1Q
+#160000
+b1110 #
+0"
+1<
+03
+0I
+1F
+#170000
+1"
+13
+1R
+1/
+1P
+1L
+1J
+1(
+1M
+0Q
+#180000
+0"
+03
+#190000
+1"
+13
+0R
+1N
+10
+0/
+0P
+0(
+1'
+1Q
+#200000
+0"
+03
+#210000
+1"
+13
+1R
+1/
+1P
+0L
+0J
+1E
+17
+1(
+0M
+1G
+0Q
+#220000
+0"
+03
+#230000
+1"
+13
+0R
+0N
+1H
+11
+00
+0/
+1I
+07
+0P
+0(
+0'
+1&
+1Q
+#240000
+b110 #
+b10 #
+0"
+0<
+0;
+03
+0I
+1C
+0=
+0F
+#250000
+b1 $
+1"
+18
+13
+1L
+0>
+0G
+0?
+1M
+1R
+1/
+1J
+1(
+#260000
+0"
+03
+#270000
+1"
+13
+1N
+0H
+0B
+02
+01
+10
+1I
+0C
+0J
+17
+1'
+0&
+0%
+#280000
+0"
+03
+#290000
+1"
+13
+#300000
+0"
+03
+#310000
+1"
+13
+#320000
+b11 #
+b1011 #
+b1111 #
+0"
+16
+1<
+1;
+03
+0I
+1O
+0K
+07
+1P
+0L
+0M
+0Q
+#330000
+1"
+13
+0R
+0N
+00
+0/
+0E
+0(
+0'
+#340000
+0"
+03
+#350000
+1"
+13
+#360000
+0"
+03
+#370000
+1"
+13
+#380000
+0"
+03
+#390000
+1"
+13
+#400000
+b1101 #
+b101 #
+0"
+05
+0;
+03
+1K
+1F
+1L
+1G
+1M
+#410000
+1"
+13
+1N
+1H
+11
+10
+1I
+1E
+1J
+17
+1'
+1&
+#420000
+0"
+03
+#430000
+1"
+13
+#440000
+0"
+03
+#450000
+1"
+13
+#460000
+0"
+03
+#470000
+1"
+13
+#480000
+0"
+03
+#490000
+1"
+13
+#500000
+b11 $
+b10 $
+0"
+08
+14
+03
+0K
+09
+0O
+0L
+0G
+0M
+#510000
+b100 #
+b0 #
+b10 #
+b1010 #
+1"
+06
+15
+0<
+1;
+13
+0I
+1=
+0F
+07
+0P
+1D
+1M
+1G
+1Q
+0N
+0H
+01
+00
+0E
+0J
+0'
+0&
+0M
+0G
+#520000
+0"
+03
+#530000
+1"
+13
+1R
+1/
+1P
+1J
+1(
+1M
+0Q
+#540000
+0"
+03
+#550000
+1"
+13
+0R
+1N
+10
+0/
+0P
+0(
+1'
+1Q
+#560000
+0"
+03
+#570000
+1"
+13
+1R
+1/
+1P
+0J
+1E
+17
+1(
+0M
+1G
+0Q
+#580000
+0"
+03
+#590000
+1"
+13
+0R
+0N
+1H
+11
+00
+0/
+07
+0P
+0(
+0'
+1&
+1Q
+#600000
+0"
+03
+#610000
+1"
+13
+1R
+1/
+1P
+1J
+1(
+1M
+0Q
+#620000
+0"
+03
+#630000
+1"
+13
+0R
+1N
+10
+0/
+0P
+0(
+1'
+1Q
+#640000
+0"
+03
+#650000
+1"
+13
+1R
+1/
+1P
+0J
+0E
+1>
+1:
+17
+1(
+0M
+1?
+0G
+0Q
+#660000
+0"
+03
+#670000
+1"
+13
+0R
+0N
+0H
+1B
+12
+01
+00
+0/
+1I
+07
+0P
+0(
+0'
+0&
+1%
+1Q
+#680000
+0"
+03
+#690000
+1"
+13
+1R
+1/
+1P
+1J
+1(
+1M
+0Q
+#700000
+0"
+03
+#710000
+1"
+13
+0R
+1N
+10
+0/
+0P
+0(
+1'
+1Q
+#720000
+0"
+03
+#730000
+1"
+13
+1R
+1/
+1P
+0J
+1E
+17
+1(
+0D
+0M
+0?
+1G
+0Q
+0G
+#740000
+0"
+03
+#750000
+b11 $
+b1011 #
+b11 #
+1"
+16
+0;
+18
+13
+1O
+0A
+0I
+1C
+0=
+1F
+07
+0>
+0R
+0N
+0B
+02
+00
+0/
+1I
+0C
+0:
+0E
+0(
+0'
+0%
+0P
+1D
+1Q
+#760000
+0"
+03
+#770000
+1"
+13
+#780000
+0"
+03
+#790000
+1"
+13
+#800000
+b111 #
+b101 #
+b100 #
+0"
+06
+05
+1<
+03
+0I
+0O
+#810000
+1"
+13
+#820000
+0"
+03
+#830000
+1"
+13
+#840000
+0"
+03
+#850000
+1"
+13
+#860000
+0"
+03
+#870000
+1"
+13
+#880000
+b1100 #
+b1110 #
+b1111 #
+0"
+16
+15
+1;
+03
+0F
+1O
+#890000
+1"
+13
+#900000
+0"
+03
+#910000
+1"
+13
+#920000
+0"
+03
+#930000
+1"
+13
+#940000
+0"
+03
+#950000
+1"
+13
+#960000
+b1110 #
+0"
+06
+03
+0O
+1F
+1=
+1>
+#970000
+1"
+13
+#980000
+0"
+03
+#990000
+1"
+13
+#1000000

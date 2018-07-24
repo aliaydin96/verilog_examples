@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog/counters/up_counter/simulation/qsim
+vup_counter
+Z1 !s110 1524923002
+!i10b 1
+!s100 J8QXog8ekMhz3=:5_<OId1
+In301BZ;`gFmeARiak^72@2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1524923001
+8up_counter.vo
+Fup_counter.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1524923002.000000
+!s107 up_counter.vo|
+!s90 -work|work|up_counter.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vup_counter_vlg_vec_tst
+R1
+!i10b 1
+!s100 fzWM?U=TAGjV3f]Pn8kGh3
+IU@QKYJe@oR86O=FgTV^iI3
+R2
+R0
+w1524923000
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
